@@ -10,9 +10,8 @@ function Index(props: any) {
   return (
     <>
       <Header />
-      Hellooooooo
+      Hellooooooo2
       <ReactMarkdown source={props.markdown} escapeHtml={false} />
-
       <h1 id="demo">
         DEMO: {props.section ? `/${props.section}` : null}
         {props.id ? `/${props.id}` : null}
